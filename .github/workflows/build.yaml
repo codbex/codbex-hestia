@@ -1,0 +1,14 @@
+name: Build - Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  application:
+    uses: codbex/codbex-infra/.github/workflows/application-build.yaml@main
+    with:
+      application-name: codbex-hestia
+      install-dependencies: true
+    secrets: inherit

@@ -1,0 +1,14 @@
+name: Pull Request - Application
+
+on:
+  pull_request:
+    branches: 
+      - main
+
+jobs:
+  application:
+    uses: codbex/codbex-infra/.github/workflows/application-pull-request.yaml@main
+    with:
+      application-name: codbex-hestia
+      install-dependencies: true
+    secrets: inherit
