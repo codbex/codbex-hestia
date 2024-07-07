@@ -16,6 +16,7 @@ jobs:
     with:
       application-name: codbex-hestia
       install-dependencies: true
+      dockerfile-location: application/
       release-create-branch: false
       release-version: ${{ inputs.release-version }}
       release-content: |
@@ -30,8 +31,25 @@ jobs:
         --rm -p 80:80 \
         ghcr.io/codbex/codbex-hestia:${{ inputs.release-version }}
         ```
+
+        ### Sample Data
+
+        ```
+        docker run --name codbex-hestia-data-sample \
+        --rm -p 80:80 \
+        ghcr.io/codbex/codbex-hestia-data-sample:${{ inputs.release-version }}
+        ```
   
         ## Access points:
   
         - [/services/web/codbex-hestia/gen/](http://localhost:80/services/web/codbex-hestia/gen/) - Admin Panel
+    secrets: inherit
+  application-data-sample:
+    uses: codbex/codbex-infra/.github/workflows/application-release.yaml@main
+    with:
+      application-name: codbex-hestia-data-sample
+      install-dependencies: true
+      dockerfile-location: application-data-sample/
+      release-create-branch: false
+      release-notes: false
     secrets: inherit
