@@ -12,3 +12,10 @@ jobs:
       application-name: codbex-hestia
       install-dependencies: true
     secrets: inherit
+  application-data-sample:
+    uses: codbex/codbex-infra/.github/workflows/application-build.yaml@main
+    with:
+      application-name: codbex-hestia-data-sample
+      install-dependencies: true
+      dockerfile-location: application-data-sample/
+    secrets: inherit
