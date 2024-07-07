@@ -17,7 +17,6 @@ jobs:
       application-name: codbex-hestia
       install-dependencies: true
       dockerfile-location: application/
-      release-create-branch: false
       release-version: ${{ inputs.release-version }}
       release-content: |
         ## codbex-hestia - ${{ inputs.release-version }}
@@ -50,6 +49,6 @@ jobs:
       application-name: codbex-hestia-data-sample
       install-dependencies: true
       dockerfile-location: application-data-sample/
+      release-version: ${{ inputs.release-version }}
       release-create-branch: false
-      release-notes: false
     secrets: inherit
