@@ -11,6 +11,7 @@ jobs:
     with:
       application-name: codbex-hestia
       install-dependencies: true
+      dockerfile-location: application/
     secrets: inherit
   application-data-sample:
     uses: codbex/codbex-infra/.github/workflows/application-build.yaml@main
