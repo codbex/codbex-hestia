@@ -6,8 +6,9 @@
 version: 2
 
 updates:
+
   - package-ecosystem: docker
-    directory: "/"
+    directory: "/application"
     schedule:
       interval: daily
     open-pull-requests-limit: 10
@@ -17,7 +18,25 @@ updates:
       - dependencies
 
   - package-ecosystem: npm
-    directory: "/"
+    directory: "/application"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    labels:
+      - dependencies
+
+  - package-ecosystem: docker
+    directory: "/application-data-sample"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "[Docker] "
+    labels:
+      - dependencies
+
+  - package-ecosystem: npm
+    directory: "/application-data-sample"
     schedule:
       interval: daily
     open-pull-requests-limit: 10
