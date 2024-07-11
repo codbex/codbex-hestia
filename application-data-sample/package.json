@@ -3,18 +3,18 @@
         "login": "npm login --scope=@codbex --auth-type=legacy --registry=https://npm.pkg.github.com"
     },
     "dependencies": {
-        "@codbex/codbex-hestia": "0.1.0",
-        "@codbex/codbex-inventory": "0.1.0",
-        "@codbex/codbex-inventory-data": "0.1.0",
-        "@codbex/codbex-orders": "0.1.0",
-        "@codbex/codbex-orders-data": "0.1.0",
-        "@codbex/codbex-invoices": "0.1.0",
-        "@codbex/codbex-invoices-data": "0.1.0",
-        "@codbex/codbex-products": "0.1.0",
-        "@codbex/codbex-products-data": "0.1.0",
-        "@codbex/codbex-order-inventory-ext": "0.1.1",
-        "@codbex/codbex-order-invoice-ext": "0.1.1",
-        "@codbex/ide-branding": "0.1.0",
-        "@codbex/codbex-hestia-data-sample": "0.1.0"
+        "@codbex/codbex-hestia": "0.2.0",
+        "@codbex/codbex-inventory": "0.2.0",
+        "@codbex/codbex-inventory-data": "0.2.0",
+        "@codbex/codbex-orders": "0.2.0",
+        "@codbex/codbex-orders-data": "0.2.0",
+        "@codbex/codbex-invoices": "0.2.0",
+        "@codbex/codbex-invoices-data": "0.2.0",
+        "@codbex/codbex-products": "0.2.0",
+        "@codbex/codbex-products-data": "0.2.0",
+        "@codbex/codbex-order-inventory-ext": "0.2.0",
+        "@codbex/codbex-order-invoice-ext": "0.2.0",
+        "@codbex/ide-branding": "0.2.0",
+        "@codbex/codbex-hestia-data-sample": "0.2.0"
     }
 }
