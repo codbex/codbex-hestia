@@ -15,6 +15,6 @@
         "@codbex/codbex-order-inventory-ext": "0.2.1",
         "@codbex/codbex-order-invoice-ext": "0.2.0",
         "@codbex/ide-branding": "0.1.0",
-        "@codbex/codbex-hestia-data-sample": "0.2.0"
+        "@codbex/codbex-hestia-data-sample": "0.2.1"
     }
 }
