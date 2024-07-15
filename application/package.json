@@ -12,7 +12,7 @@
         "@codbex/codbex-invoices-data": "0.2.0",
         "@codbex/codbex-products": "0.2.0",
         "@codbex/codbex-products-data": "0.2.0",
-        "@codbex/codbex-order-inventory-ext": "0.2.0",
+        "@codbex/codbex-order-inventory-ext": "0.2.1",
         "@codbex/codbex-order-invoice-ext": "0.2.0",
         "@codbex/ide-branding": "0.1.0"
     }
