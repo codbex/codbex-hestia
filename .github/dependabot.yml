@@ -25,6 +25,7 @@ updates:
       - dependencies
 
   - package-ecosystem: npm
+    registries: "*"
     directory: "/application"
     schedule:
       interval: daily
@@ -43,6 +44,7 @@ updates:
       - dependencies
 
   - package-ecosystem: npm
+    registries: "*"
     directory: "/application-data-sample"
     schedule:
       interval: daily
