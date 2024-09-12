@@ -17,6 +17,7 @@
         "@codbex/codbex-invoice-inventory-ext": "0.1.0",
         "@codbex/codbex-payment-invoice-ext": "0.1.0",
         "@codbex/codbex-payment-order-ext": "0.1.0",
+        "@codbex/codbex-order-payment-ext": "0.1.0",
         "@codbex/codbex-hestia-print": "0.1.0",
         "@codbex/ide-branding": "0.1.0",
         "@codbex/codbex-hestia-data-sample": "0.2.1"
