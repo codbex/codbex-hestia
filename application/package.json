@@ -6,7 +6,7 @@
         "@codbex/codbex-hestia": "0.3.0",
         "@codbex/codbex-inventory": "0.3.0",
         "@codbex/codbex-inventory-data": "0.3.0",
-        "@codbex/codbex-orders": "0.3.0",
+        "@codbex/codbex-orders": "0.4.0",
         "@codbex/codbex-orders-data": "0.3.0",
         "@codbex/codbex-invoices": "0.3.0",
         "@codbex/codbex-invoices-data": "0.3.0",
