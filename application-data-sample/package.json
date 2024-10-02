@@ -10,7 +10,7 @@
         "@codbex/codbex-orders-data": "0.3.0",
         "@codbex/codbex-invoices": "0.3.0",
         "@codbex/codbex-invoices-data": "0.3.0",
-        "@codbex/codbex-products": "0.3.0",
+        "@codbex/codbex-products": "0.4.0",
         "@codbex/codbex-products-data": "0.3.0",
         "@codbex/codbex-order-inventory-ext": "0.3.0",
         "@codbex/codbex-order-invoice-ext": "0.3.0",
