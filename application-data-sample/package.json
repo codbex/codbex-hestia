@@ -10,7 +10,7 @@
         "@codbex/codbex-order-inventory-ext": "0.3.0",
         "@codbex/codbex-order-invoice-ext": "0.4.0",
         "@codbex/codbex-invoice-inventory-ext": "0.2.0",
-        "@codbex/codbex-payment-invoice-ext": "0.1.0",
+        "@codbex/codbex-payment-invoice-ext": "0.2.0",
         "@codbex/codbex-payment-order-ext": "0.1.0",
         "@codbex/codbex-order-payment-ext": "0.1.0",
         "@codbex/codbex-hestia-print": "0.2.0",
